@@ -12,40 +12,64 @@
       <template v-slot:img="{ props }">
         <v-img v-bind="props"></v-img>
       </template>
-      <!-- gradient="to top right, rgba(100,115,201,.7), rgba(25,32,72,.7)" -->
-      <v-app-bar-title class="text-no-wrap">丰一帆 / Yifan Feng</v-app-bar-title>
+      <v-app-bar-title class="text-no-wrap"
+        >丰一帆 / Yifan Feng</v-app-bar-title
+      >
       <v-spacer></v-spacer>
       <template v-slot:extension>
         <v-tabs align-with-title>
-          <v-tab>About Me</v-tab>
-          <v-tab>Research</v-tab>
-          <v-tab>Publications</v-tab>
-          <v-tab>Datasets</v-tab>
-          <v-tab>Toolbox</v-tab>
+          <v-tab @click="tinyGo('#bio')">About Me</v-tab>
+          <v-tab @click="tinyGo('#research')">Research</v-tab>
+          <v-tab @click="tinyGo('#publication')">Publications</v-tab>
+          <v-tab @click="tinyGo('#dataset')">Datasets</v-tab>
+          <v-tab @click="tinyGo('#toolbox')">Toolbox</v-tab>
         </v-tabs>
       </template>
     </v-app-bar>
 
     <v-main>
-      <v-container class="overflow-y-auto" max-height="600">
-        <HelloWorld style="height: 2000px" />
+      <v-container  id="MyContent" >
+        <MyBio id="bio" style="height: 500px" />
+        <v-divider></v-divider>
+        <MyResearch id="research" style="height: 500px" />
+        <v-divider></v-divider>
+        <MyPublication id="publication" style="height: 500px" />
+        <v-divider></v-divider>
+        <MyDataset id="dataset" style="height: 500px" />
+        <v-divider></v-divider>
+        <MyToolbox id="toolbox" style="height: 500px" />
+        <v-divider></v-divider>
       </v-container>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+import MyBio from "./components/Bio";
+import MyResearch from "./components/Research";
+import MyPublication from "./components/Publication";
+import MyDataset from "./components/Dataset";
+import MyToolbox from "./components/Toolbox";
 
 export default {
   name: "App",
 
   components: {
-    HelloWorld,
+    MyBio,
+    MyResearch,
+    MyPublication,
+    MyDataset,
+    MyToolbox,
   },
 
   data: () => ({
     //
   }),
+
+  methods: {
+    tinyGo(name) {
+      window.location.href = name;
+    },
+  },
 };
 </script>
