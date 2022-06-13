@@ -4,50 +4,41 @@
       app
       color="primary"
       dark
+      prominent
+      shrink-on-scroll
+      src="https://picsum.photos/1920/1080?random"
+      fade-img-on-scroll
     >
-      <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
-
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
-      </div>
-
+      <template v-slot:img="{ props }">
+        <v-img v-bind="props"></v-img>
+      </template>
+      <!-- gradient="to top right, rgba(100,115,201,.7), rgba(25,32,72,.7)" -->
+      <v-app-bar-title class="text-no-wrap">丰一帆 / Yifan Feng</v-app-bar-title>
       <v-spacer></v-spacer>
-
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
+      <template v-slot:extension>
+        <v-tabs align-with-title>
+          <v-tab>About Me</v-tab>
+          <v-tab>Research</v-tab>
+          <v-tab>Publications</v-tab>
+          <v-tab>Datasets</v-tab>
+          <v-tab>Toolbox</v-tab>
+        </v-tabs>
+      </template>
     </v-app-bar>
 
     <v-main>
-      <HelloWorld/>
+      <v-container class="overflow-y-auto" max-height="600">
+        <HelloWorld style="height: 2000px" />
+      </v-container>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import HelloWorld from "./components/HelloWorld";
 
 export default {
-  name: 'App',
+  name: "App",
 
   components: {
     HelloWorld,
