@@ -1,5 +1,5 @@
 <template>
-  <v-container class="mt-16">
+  <v-container class="mt-6">
     <v-row class="text-center">
       <h1>This is my Research.</h1>
     </v-row>

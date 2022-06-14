@@ -18,18 +18,21 @@
       <v-spacer></v-spacer>
       <template v-slot:extension>
         <v-tabs align-with-title>
-          <v-tab @click="tinyGo('#bio')">About Me</v-tab>
-          <v-tab @click="tinyGo('#research')">Research</v-tab>
-          <v-tab @click="tinyGo('#publication')">Publications</v-tab>
-          <v-tab @click="tinyGo('#dataset')">Datasets</v-tab>
-          <v-tab @click="tinyGo('#toolbox')">Toolbox</v-tab>
+          <v-tab @click="$vuetify.goTo('#bio')">About Me</v-tab>
+          <v-tab @click="$vuetify.goTo('#news')">News</v-tab>
+          <v-tab @click="$vuetify.goTo('#research')">Research</v-tab>
+          <v-tab @click="$vuetify.goTo('#publication')">Publications</v-tab>
+          <v-tab @click="$vuetify.goTo('#dataset')">Datasets</v-tab>
+          <v-tab @click="$vuetify.goTo('#toolbox')">Toolbox</v-tab>
         </v-tabs>
       </template>
     </v-app-bar>
 
     <v-main>
       <v-container  id="MyContent" >
-        <MyBio id="bio" style="height: 500px" />
+        <MyBio id="bio" />
+        <v-divider></v-divider>
+        <MyNews id="news" style="height: 500px" />
         <v-divider></v-divider>
         <MyResearch id="research" style="height: 500px" />
         <v-divider></v-divider>
@@ -46,6 +49,7 @@
 
 <script>
 import MyBio from "./components/Bio";
+import MyNews from "./components/News";
 import MyResearch from "./components/Research";
 import MyPublication from "./components/Publication";
 import MyDataset from "./components/Dataset";
@@ -56,6 +60,7 @@ export default {
 
   components: {
     MyBio,
+    MyNews,
     MyResearch,
     MyPublication,
     MyDataset,
@@ -67,9 +72,7 @@ export default {
   }),
 
   methods: {
-    tinyGo(name) {
-      window.location.href = name;
-    },
+
   },
 };
 </script>
