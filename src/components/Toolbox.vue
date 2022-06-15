@@ -1,7 +1,7 @@
 <template>
-  <v-container class="mt-6">
+  <v-container>
     <v-row class="text-center">
-      <h1>This is my ToolBox.</h1>
+      <p class="text-h3">Released Toolbox</p>
     </v-row>
   </v-container>
 </template>

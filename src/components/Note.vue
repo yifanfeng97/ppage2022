@@ -1,14 +1,14 @@
 <template>
-  <v-container class="mt-6">
+  <v-container>
     <v-row class="text-center">
-      <h1>This is my Research.</h1>
+      <p class="text-h3">Notes</p>
     </v-row>
   </v-container>
 </template>
 
 <script>
 export default {
-  name: "MyResearch",
+  name: "MyNote",
 
   data: () => ({}),
 };

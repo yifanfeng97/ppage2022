@@ -1,7 +1,7 @@
 <template>
-  <v-container class="mt-6">
+  <v-container>
     <v-row class="text-center">
-      <h1>This is my publication.</h1>
+      <p class="text-h3">Publications</p>
     </v-row>
   </v-container>
 </template>

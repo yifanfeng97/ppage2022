@@ -20,7 +20,8 @@
         <v-tabs align-with-title>
           <v-tab @click="$vuetify.goTo('#bio')">About Me</v-tab>
           <v-tab @click="$vuetify.goTo('#news')">News</v-tab>
-          <v-tab @click="$vuetify.goTo('#research')">Research</v-tab>
+          <v-tab @click="$vuetify.goTo('#service')">Services</v-tab>
+          <v-tab @click="$vuetify.goTo('#note')">Notes</v-tab>
           <v-tab @click="$vuetify.goTo('#publication')">Publications</v-tab>
           <v-tab @click="$vuetify.goTo('#dataset')">Datasets</v-tab>
           <v-tab @click="$vuetify.goTo('#toolbox')">Toolbox</v-tab>
@@ -29,28 +30,46 @@
     </v-app-bar>
 
     <v-main>
-      <v-container  id="MyContent" >
-        <MyBio id="bio" />
+      <v-container id="MyContent">
+        <MyBio class="my-6" id="bio" />
         <v-divider></v-divider>
-        <MyNews id="news" style="height: 500px" />
+        <MyNews class="my-6" id="news"/>
         <v-divider></v-divider>
-        <MyResearch id="research" style="height: 500px" />
+        <MyService class="my-6" id="service"/>
         <v-divider></v-divider>
-        <MyPublication id="publication" style="height: 500px" />
+        <MyNote class="my-6" id="note" style="height: 500px" />
         <v-divider></v-divider>
-        <MyDataset id="dataset" style="height: 500px" />
+        <MyPublication class="my-6" id="publication" style="height: 500px" />
         <v-divider></v-divider>
-        <MyToolbox id="toolbox" style="height: 500px" />
+        <MyDataset class="my-6" id="dataset" style="height: 500px" />
         <v-divider></v-divider>
+        <MyToolbox class="my-6" id="toolbox" style="height: 500px" />
       </v-container>
     </v-main>
+
+    <v-footer color="primary" dark padless>
+      <v-container fluid class="pa-0">
+        <v-row class="align-center" no-gutters>
+          <v-col cols="12">
+            <v-card-subtitle class="text-center pb-1 text-subtitle-1">
+              <strong>Yifan Feng</strong>
+            </v-card-subtitle>
+            <v-card-text class="text-center">
+              Copyright © 2022 -
+              {{ new Date().getFullYear() }}, All rights reserved.
+            </v-card-text>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-footer>
   </v-app>
 </template>
 
 <script>
 import MyBio from "./components/Bio";
 import MyNews from "./components/News";
-import MyResearch from "./components/Research";
+import MyService from "./components/Service";
+import MyNote from "./components/Note";
 import MyPublication from "./components/Publication";
 import MyDataset from "./components/Dataset";
 import MyToolbox from "./components/Toolbox";
@@ -61,7 +80,8 @@ export default {
   components: {
     MyBio,
     MyNews,
-    MyResearch,
+    MyService,
+    MyNote,
     MyPublication,
     MyDataset,
     MyToolbox,
@@ -71,8 +91,6 @@ export default {
     //
   }),
 
-  methods: {
-
-  },
+  methods: {},
 };
 </script>
