@@ -42,7 +42,7 @@
           <v-col cols="12" class="text-h3"> Biography </v-col>
           <v-col cols="12" class="text-h6 font-weight-regular">
             <p>
-              I am currently a first-year Ph.D student in the
+              I am currently a first-year Ph.D. student in the
               <a
                 class="text-decoration-none"
                 href="https://www.thss.tsinghua.edu.cn/"
@@ -61,7 +61,7 @@
                 href="https://www.moon-lab.tech/"
                 target="_blank"
                 >Yue Gao</a
-              >. I have received the BE degree in computer science and
+              >. I have received the B.E. degree in computer science and
               technology from
               <a
                 class="text-decoration-none"
@@ -69,7 +69,8 @@
                 target="_blank"
                 >Xidian University</a
               >
-              in 2018, and the MS degree supervised by Professor
+              in 2018, and the M.S. degree in intelligent science and technology
+              supervised by Professor
               <a
                 class="text-decoration-none"
                 href="https://mac.xmu.edu.cn/"
@@ -103,11 +104,11 @@
             <p class="text-h4">Education</p>
             <v-timeline dense class="text-h6 font-weight-regular">
               <v-timeline-item small fill-dot
-                >B.S. of Computer Science from Xidian University, 2014 -
+                >B.E. in Computer Science from Xidian University, 2014 -
                 2018.</v-timeline-item
               >
               <v-timeline-item small fill-dot
-                >M.S. of Intelligent Science and Technology from
+                >M.S. in Intelligent Science and Technology from
                 <a
                   class="text-decoration-none"
                   href="https://mac.xmu.edu.cn/"
