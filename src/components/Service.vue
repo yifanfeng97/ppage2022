@@ -5,7 +5,7 @@
     </v-row>
     <v-row>
       <v-col cols="12" class="text-h6">
-        Program Committee member / Reviewer:
+        Program Committee Member / Reviewer:
       </v-col>
       <v-col cols="12" class="text-body-1">
         <p>- Pacific-Rim Conference on Multimedia (PCM 2018)</p>
