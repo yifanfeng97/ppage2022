@@ -20,8 +20,8 @@
         <v-tabs align-with-title>
           <v-tab @click="$vuetify.goTo('#bio')">About Me</v-tab>
           <v-tab @click="$vuetify.goTo('#news')">News</v-tab>
-          <v-tab @click="$vuetify.goTo('#service')">Services</v-tab>
           <v-tab @click="$vuetify.goTo('#note')">Notes</v-tab>
+          <v-tab @click="$vuetify.goTo('#service')">Services</v-tab>
           <v-tab @click="$vuetify.goTo('#publication')">Publications</v-tab>
           <v-tab @click="$vuetify.goTo('#dataset')">Datasets</v-tab>
           <v-tab @click="$vuetify.goTo('#toolbox')">Toolbox</v-tab>
@@ -35,9 +35,9 @@
         <v-divider></v-divider>
         <MyNews class="my-6" id="news"/>
         <v-divider></v-divider>
-        <MyService class="my-6" id="service"/>
-        <v-divider></v-divider>
         <MyNote class="my-6" id="note" style="height: 500px" />
+        <v-divider></v-divider>
+        <MyService class="my-6" id="service"/>
         <v-divider></v-divider>
         <MyPublication class="my-6" id="publication" style="height: 500px" />
         <v-divider></v-divider>

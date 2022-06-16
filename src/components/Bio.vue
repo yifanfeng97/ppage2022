@@ -39,7 +39,7 @@
       </v-col>
       <v-col md="8" cols="12">
         <v-row>
-          <v-col cols="12" class="text-h3"> Biography </v-col>
+          <v-col cols="12" class="text-h4"> Biography </v-col>
           <v-col cols="12" class="text-h6 font-weight-regular">
             <p>
               I am currently a first-year Ph.D. student in the

@@ -1,7 +1,7 @@
 <template>
   <v-container dense>
     <v-row class="text-center">
-      <p class="text-h3">Services</p>
+      <p class="text-h4">Services</p>
     </v-row>
     <v-row>
       <v-col cols="12" class="text-h6">

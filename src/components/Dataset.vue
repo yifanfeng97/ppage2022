@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row class="text-center">
-      <p class="text-h3">Released Datasets</p>
+      <p class="text-h4">Released Datasets</p>
     </v-row>
   </v-container>
 </template>
