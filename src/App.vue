@@ -39,7 +39,7 @@
         <v-divider></v-divider>
         <MyService class="my-6" id="service"/>
         <v-divider></v-divider>
-        <MyPublication class="my-6" id="publication" style="height: 500px" />
+        <MyPublication class="my-6" id="publication" />
         <v-divider></v-divider>
         <MyDataset class="my-6" id="dataset" style="height: 500px" />
         <v-divider></v-divider>
