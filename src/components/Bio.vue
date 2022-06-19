@@ -9,7 +9,7 @@
         </v-col>
         <v-col cols="12" class="text-center">
           <p class="text-h4">丰一帆 (Yifan Feng)</p>
-          <p class="text-h5 grey--text text--darken-1" color="grey">
+          <p class="text-h5 grey--text text--darken-1" >
             Ph.D. of School of Software
           </p>
           <p class="text-h6">
@@ -100,40 +100,53 @@
           </v-col>
         </v-row>
         <v-row>
-          <v-col md="6" cols="12">
-            <p class="text-h4">Education</p>
-            <v-timeline dense class="text-h6 font-weight-regular">
-              <v-timeline-item small fill-dot
-                >B.E. in Computer Science from Xidian University, 2014 -
-                2018.</v-timeline-item
-              >
-              <v-timeline-item small fill-dot
-                >M.S. in Intelligent Science and Technology from
-                <a
-                  class="text-decoration-none"
-                  href="https://mac.xmu.edu.cn/"
-                  target="_blank"
-                  >MAC</a
-                >, Xiamen University, 2018 - 2021.</v-timeline-item
-              >
-              <v-timeline-item small fill-dot
-                >Ph.D. of School of Software from
-                <a
-                  class="text-decoration-none"
-                  href="https://www.moon-lab.tech/"
-                  target="_blank"
-                  >iMoon Lab</a
-                >, Tsinghua University, 2021 - Present.</v-timeline-item
-              >
-            </v-timeline>
-          </v-col>
-          <v-col md="6" cols="12">
-            <p class="text-h4">Intern Experiment</p>
-            <v-timeline dense class="text-h6 font-weight-regular">
-              <v-timeline-item small fill-dot
-                >Institute of Deep Learning, Baidu, 2017 -
-                2018.</v-timeline-item
-              >
+          <v-col md="12" cols="12">
+            <p class="text-h5">Experiments</p>
+            <v-timeline dense class="text-body1 font-weight-regular">
+              <v-timeline-item small fill-dot>
+                <v-row dense no-gutters>
+                  <v-col md="2" cols="12" class="grey--text text--darken-2 font-weight-medium font-italic">2014 - 2018</v-col>
+                  <v-col md="10" cols="12" class="align-self-center text-body-1">
+                    B.E. in Computer Science, Xidian University.
+                  </v-col>
+                </v-row>
+              </v-timeline-item>
+              <v-timeline-item small fill-dot>
+                <v-row dense no-gutters>
+                  <v-col md="2" cols="12" class="grey--text text--darken-2 font-weight-medium font-italic">2017 - 2018</v-col>
+                  <v-col md="10" cols="12" class="align-self-center text-body-1">
+                    Intern in Institute of Deep Learning, Baidu Inc.
+                  </v-col>
+                </v-row>
+              </v-timeline-item>
+              <v-timeline-item small fill-dot>
+                <v-row dense no-gutters>
+                  <v-col md="2" cols="12" class=" grey--text text--darken-2 font-weight-medium font-italic">2018 - 2021</v-col>
+                  <v-col md="10" cols="12" class="align-self-center text-body-1"
+                    >M.S. in Intelligent Science and Technology from
+                    <a
+                      class="text-decoration-none"
+                      href="https://mac.xmu.edu.cn/"
+                      target="_blank"
+                      >MAC</a
+                    >, Xiamen University.
+                  </v-col>
+                </v-row>
+              </v-timeline-item>
+              <v-timeline-item small fill-dot>
+                <v-row dense no-gutters>
+                  <v-col md="2" cols="12" class="grey--text text--darken-2 font-weight-medium font-italic">2021 - Now</v-col>
+                  <v-col md="10" cols="12" class="align-self-center text-body-1"
+                    >Ph.D. of School of Software from
+                    <a
+                      class="text-decoration-none"
+                      href="https://www.moon-lab.tech/"
+                      target="_blank"
+                      >iMoon Lab</a
+                    >, Tsinghua University.
+                  </v-col>
+                </v-row>
+              </v-timeline-item>
             </v-timeline>
           </v-col>
         </v-row>

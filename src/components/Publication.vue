@@ -231,6 +231,17 @@ export default {
       },
       {
         index: 11,
+        title: "Generating Hypergraph-Based High-Order Representations of Whole-Slide Histopathological Images for Survival Prediction",
+        publication: "Under Review",
+        authors:
+          "Donglin Di, Changqing Zou, Yifan Feng, Hanyan Zhou, Rongrong Ji, Qionghai Dai and Yue Gao*",
+        url_pdf: "",
+        url_code: "",
+        bib_tex: "",
+        fw_path: "publication/2021-hgsurvnet/fw.png",
+      },
+      {
+        index: 12,
         title: "SHREC'22 Track: Open-Set 3D Object Retrieval",
         publication: "Under Review",
         authors:
@@ -241,7 +252,7 @@ export default {
         fw_path: "publication/2022-shrec22/fw.png",
       },
       {
-        index: 12,
+        index: 13,
         title: "A Bilateral-Branch Joint Learning Framework for Multiplex Bipartite Network Embedding",
         publication: "Under Review",
         authors:
@@ -252,7 +263,7 @@ export default {
         fw_path: "publication/2022-combi/fw.png",
       },
       {
-        index: 13,
+        index: 14,
         title: "Cross-Modal 3D Shape Retrieval via Heterogeneous Dynamic Graph Representation",
         publication: "Under Review",
         authors:
@@ -263,7 +274,7 @@ export default {
         fw_path: "publication/2022-hdgr/fw.png",
       },
       {
-        index: 14,
+        index: 15,
         title: "Hierarchical Set-to-set Representation for 3D Cross-modal Retrieval",
         publication: "Under Review",
         authors:
@@ -274,7 +285,7 @@ export default {
         fw_path: "publication/2022-hsr/fw.png",
       },
       {
-        index: 15,
+        index: 16,
         title: "Multi-View Time-Series Hypergraph Learning for Action Recognition",
         publication: "Under Review",
         authors:
@@ -285,7 +296,7 @@ export default {
         fw_path: "publication/2022-mv-tshl/fw.png",
       },
       {
-        index: 16,
+        index: 17,
         title: "Hypergraph Information Bottleneck Guided Hypergraph Structure Learning",
         publication: "Under Review",
         authors:
@@ -296,7 +307,7 @@ export default {
         fw_path: "publication/2022-hib/fw.png",
       },
       {
-        index: 17,
+        index: 18,
         title: "Open-Set 3D Object Retrieval using Structure-Driven Multi-Modal Representation",
         publication: "Under Review",
         authors:
