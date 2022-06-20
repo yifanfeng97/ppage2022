@@ -56,8 +56,8 @@
           stage.
         </p>
         <p>
-          <strong>OS-MN-40: </strong> This sub-dataset is constructed by random
-          drop arbitrary modality with probability 0.4 for each object.
+          <strong>OS-MN-40-Miss: </strong> This sub-dataset is constructed by
+          random drop arbitrary modality with probability 0.4 for each object.
           OS-MN40-Miss is collected towards modality missing problem.
         </p>
         <p>
@@ -84,7 +84,11 @@
         </p>
       </v-col>
       <v-col cols="12" class="d-flex justify-center">
-        <v-img src="publication/2022-shrec22/fw.png" max-width="900"></v-img>
+        <v-img
+          src="publication/2022-shrec22/fw.png"
+          max-height="300"
+          contain
+        ></v-img>
       </v-col>
     </v-row>
     <v-row>
