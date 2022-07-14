@@ -8,10 +8,10 @@
         <v-row>
           <v-col md="8" cols="12">
             <v-row class="d-flex align-center">
-              <span class="text-h6 font-weight-medium">
-                {{ p.title }}.
-              </span>
-              <span class="text-h6 font-italic font-weight-regular pl-1"> 👉🏼 {{ p.publication }}</span>
+              <span class="text-h6 font-weight-medium"> {{ p.title }}. </span>
+              <span class="text-h6 font-italic font-weight-regular pl-1">
+                👉🏼 {{ p.publication }}</span
+              >
             </v-row>
             <v-row>
               <span class="text-body-1 font-italic grey--text text--darken-1">
@@ -44,7 +44,7 @@
               <v-dialog transition="dialog-bottom-transition" max-width="800">
                 <template v-slot:activator="{ on, attrs }">
                   <v-btn
-                  v-if="p.bib_tex != ''"
+                    v-if="p.bib_tex != ''"
                     x-small
                     outlined
                     color="primary"
@@ -186,8 +186,7 @@ export default {
       },
       {
         index: 7,
-        title:
-          "Emotion Recognition by Edge-Weighted Hypergraph Neural Network",
+        title: "Emotion Recognition by Edge-Weighted Hypergraph Neural Network",
         publication: "ICIP 2019",
         authors:
           "Jingzhi Shao, Junjie Zhu, Yuxuan Wei, Yifan Feng and Xibin Zhao*",
@@ -222,8 +221,7 @@ export default {
         index: 10,
         title: "HGNN+: General Hypergraph Neural Networks",
         publication: "IEEE T-PAMI 2022",
-        authors:
-          "Yue Gao, Yifan Feng, Shuyi Ji and Rongrong Ji*",
+        authors: "Yue Gao, Yifan Feng, Shuyi Ji and Rongrong Ji*",
         url_pdf: "https://ieeexplore.ieee.org/document/9795251",
         url_code: "",
         bib_tex: "publication/2022-hgnnp/cite.bib",
@@ -231,7 +229,18 @@ export default {
       },
       {
         index: 11,
-        title: "Generating Hypergraph-Based High-Order Representations of Whole-Slide Histopathological Images for Survival Prediction",
+        title: "SHREC'22 Track: Open-Set 3D Object Retrieval",
+        publication: "Computers & Graphics 2022",
+        authors: "Yifan Feng, Yue Gao* and Xibin Zhao, et al.",
+        url_pdf: "",
+        url_code: "",
+        bib_tex: "",
+        fw_path: "publication/2022-shrec22/fw.png",
+      },
+      {
+        index: 12,
+        title:
+          "Generating Hypergraph-Based High-Order Representations of Whole-Slide Histopathological Images for Survival Prediction",
         publication: "Under Review",
         authors:
           "Donglin Di, Changqing Zou, Yifan Feng, Hanyan Zhou, Rongrong Ji, Qionghai Dai and Yue Gao*",
@@ -241,22 +250,11 @@ export default {
         fw_path: "publication/2021-hgsurvnet/fw.png",
       },
       {
-        index: 12,
-        title: "SHREC'22 Track: Open-Set 3D Object Retrieval",
-        publication: "Under Review",
-        authors:
-          "Yifan Feng, Yue Gao* and Xibin Zhao, et al.",
-        url_pdf: "",
-        url_code: "",
-        bib_tex: "",
-        fw_path: "publication/2022-shrec22/fw.png",
-      },
-      {
         index: 13,
-        title: "A Bilateral-Branch Joint Learning Framework for Multiplex Bipartite Network Embedding",
+        title:
+          "A Bilateral-Branch Joint Learning Framework for Multiplex Bipartite Network Embedding",
         publication: "Under Review",
-        authors:
-          "Shuyi Ji, Yifan Feng and Yue Gao*, et al.",
+        authors: "Shuyi Ji, Yifan Feng and Yue Gao*, et al.",
         url_pdf: "",
         url_code: "",
         bib_tex: "",
@@ -264,10 +262,10 @@ export default {
       },
       {
         index: 14,
-        title: "Cross-Modal 3D Shape Retrieval via Heterogeneous Dynamic Graph Representation",
+        title:
+          "Cross-Modal 3D Shape Retrieval via Heterogeneous Dynamic Graph Representation",
         publication: "Under Review",
-        authors:
-          "Yue Dai, Yifan Feng and Yue Gao*, et al.",
+        authors: "Yue Dai, Yifan Feng and Yue Gao*, et al.",
         url_pdf: "",
         url_code: "",
         bib_tex: "",
@@ -275,10 +273,10 @@ export default {
       },
       {
         index: 15,
-        title: "Hierarchical Set-to-set Representation for 3D Cross-modal Retrieval",
+        title:
+          "Hierarchical Set-to-set Representation for 3D Cross-modal Retrieval",
         publication: "Under Review",
-        authors:
-          "Yu Jiang, Cong Hua, Yifan Feng and Yue Gao*",
+        authors: "Yu Jiang, Cong Hua, Yifan Feng and Yue Gao*",
         url_pdf: "",
         url_code: "",
         bib_tex: "",
@@ -286,10 +284,10 @@ export default {
       },
       {
         index: 16,
-        title: "Multi-View Time-Series Hypergraph Learning for Action Recognition",
+        title:
+          "Multi-View Time-Series Hypergraph Learning for Action Recognition",
         publication: "Under Review",
-        authors:
-          "Nan Ma, Zhixuan Wu, Yifan Feng and Yue Gao*, et al.",
+        authors: "Nan Ma, Zhixuan Wu, Yifan Feng and Yue Gao*, et al.",
         url_pdf: "",
         url_code: "",
         bib_tex: "",
@@ -297,10 +295,10 @@ export default {
       },
       {
         index: 17,
-        title: "Hypergraph Information Bottleneck Guided Hypergraph Structure Learning",
+        title:
+          "Hypergraph Information Bottleneck Guided Hypergraph Structure Learning",
         publication: "Under Review",
-        authors:
-          "Zizhao Zhang, Yifan Feng, Shihui Ying and Yue Gao*",
+        authors: "Zizhao Zhang, Yifan Feng, Shihui Ying and Yue Gao*",
         url_pdf: "",
         url_code: "",
         bib_tex: "",
@@ -308,16 +306,15 @@ export default {
       },
       {
         index: 18,
-        title: "Open-Set 3D Object Retrieval using Structure-Driven Multi-Modal Representation",
+        title:
+          "Open-Set 3D Object Retrieval using Structure-Driven Multi-Modal Representation",
         publication: "Under Review",
-        authors:
-          "Yifan Feng, Shuyi Ji, Yu-Shen Liu and Yue Gao*.",
+        authors: "Yifan Feng, Shuyi Ji, Yu-Shen Liu and Yue Gao*.",
         url_pdf: "",
         url_code: "",
         bib_tex: "",
         fw_path: "publication/2022-sdm2r/fw.png",
       },
-      
     ],
     cur_bibtex: "",
     cur_bibliography: "",

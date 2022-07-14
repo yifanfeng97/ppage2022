@@ -18,6 +18,10 @@
           - International Conference on Medical Image Computing and Computer
           Assisted Intervention (MICCAI 2020)
         </p>
+        <p>
+          - CAAI International Conference on Artificial Intelligence 2022 (CICAI
+          2022)
+        </p>
       </v-col>
     </v-row>
     <v-row>
