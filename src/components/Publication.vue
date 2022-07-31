@@ -232,9 +232,9 @@ export default {
         title: "SHREC'22 Track: Open-Set 3D Object Retrieval",
         publication: "Computers & Graphics 2022",
         authors: "Yifan Feng, Yue Gao* and Xibin Zhao, et al.",
-        url_pdf: "",
-        url_code: "",
-        bib_tex: "",
+        url_pdf: "https://www.sciencedirect.com/science/article/abs/pii/S0097849322001443",
+        url_code: "https://github.com/yifanfeng97/multi-modal-generation-for-shrec22",
+        bib_tex: "publication/2022-shrec22/cite.bib",
         fw_path: "publication/2022-shrec22/fw.png",
       },
       {
