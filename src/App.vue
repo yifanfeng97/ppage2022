@@ -47,6 +47,7 @@
         <v-divider></v-divider>
         <MyToolbox class="my-6" id="toolbox" />
       </v-container>
+      <v-responsive height="200"> </v-responsive>
     </v-main>
 
     <v-footer color="primary" dark padless>

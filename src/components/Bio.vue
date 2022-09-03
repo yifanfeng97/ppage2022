@@ -9,7 +9,7 @@
         </v-col>
         <v-col cols="12" class="text-center">
           <p class="text-h4">丰一帆 (Yifan Feng)</p>
-          <p class="text-h5 grey--text text--darken-1" >
+          <p class="text-h5 grey--text text--darken-1">
             Ph.D. of School of Software
           </p>
           <p class="text-h6">
@@ -86,9 +86,16 @@
               >
               in 2021. My research interests include 3D Object Recognition, 3D
               Object Retrieval, Open-set 3D Object Retrieval, Hypergraph Neural
-              Networks, and Complex Network. Now, I am developing a toolkit for
-              hypergraph nerual networks, and it will be released soon. If you
-              are interested in my research, please email me at
+              Networks, and Complex Network. I have released the
+              <a
+                class="text-decoration-none"
+                href="http://deephypergraph.com/"
+                target="_blank"
+                >DeepHypergraph (DHG)</a
+              >
+              toolkit for Learning with Graph Neural Networks and Hypergraph
+              Neural Networks. If you are interested in my research, please
+              email me at
               <a class="text-decoration-none" href="mailto:evanfeng97@gmail.com"
                 >evanfeng97@gmail.com</a
               >
@@ -105,23 +112,46 @@
             <v-timeline dense class="text-body1 font-weight-regular">
               <v-timeline-item small fill-dot>
                 <v-row dense no-gutters>
-                  <v-col md="2" cols="12" class="grey--text text--darken-2 font-weight-medium font-italic">2014 - 2018</v-col>
-                  <v-col md="10" cols="12" class="align-self-center text-body-1">
+                  <v-col
+                    md="2"
+                    cols="12"
+                    class="grey--text text--darken-2 font-weight-medium font-italic"
+                    >2014 - 2018</v-col
+                  >
+                  <v-col
+                    md="10"
+                    cols="12"
+                    class="align-self-center text-body-1"
+                  >
                     B.E. in Computer Science, Xidian University.
                   </v-col>
                 </v-row>
               </v-timeline-item>
               <v-timeline-item small fill-dot>
                 <v-row dense no-gutters>
-                  <v-col md="2" cols="12" class="grey--text text--darken-2 font-weight-medium font-italic">2017 - 2018</v-col>
-                  <v-col md="10" cols="12" class="align-self-center text-body-1">
+                  <v-col
+                    md="2"
+                    cols="12"
+                    class="grey--text text--darken-2 font-weight-medium font-italic"
+                    >2017 - 2018</v-col
+                  >
+                  <v-col
+                    md="10"
+                    cols="12"
+                    class="align-self-center text-body-1"
+                  >
                     Intern in Institute of Deep Learning, Baidu Inc.
                   </v-col>
                 </v-row>
               </v-timeline-item>
               <v-timeline-item small fill-dot>
                 <v-row dense no-gutters>
-                  <v-col md="2" cols="12" class=" grey--text text--darken-2 font-weight-medium font-italic">2018 - 2021</v-col>
+                  <v-col
+                    md="2"
+                    cols="12"
+                    class="grey--text text--darken-2 font-weight-medium font-italic"
+                    >2018 - 2021</v-col
+                  >
                   <v-col md="10" cols="12" class="align-self-center text-body-1"
                     >M.S. in Intelligent Science and Technology from
                     <a
@@ -135,7 +165,12 @@
               </v-timeline-item>
               <v-timeline-item small fill-dot>
                 <v-row dense no-gutters>
-                  <v-col md="2" cols="12" class="grey--text text--darken-2 font-weight-medium font-italic">2021 - Now</v-col>
+                  <v-col
+                    md="2"
+                    cols="12"
+                    class="grey--text text--darken-2 font-weight-medium font-italic"
+                    >2021 - Now</v-col
+                  >
                   <v-col md="10" cols="12" class="align-self-center text-body-1"
                     >Ph.D. of School of Software from
                     <a

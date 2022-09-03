@@ -16,6 +16,53 @@
                 Jul. 2022.</v-col
               >
               <v-col md="10" cols="12" class="align-self-center">
+                We have given a talk on
+                <a
+                  class="text-decoration-none"
+                  href="https://www.micc.unifi.it/3dor2022/"
+                  target="_blank"
+                >
+                  3DOR 2022</a
+                >
+                about Open-Set 3D Object Retrieval.
+              </v-col>
+            </v-row>
+          </v-timeline-item>
+          <v-timeline-item small fill-dot>
+            <v-row dense no-gutters>
+              <v-col
+                md="2"
+                cols="12"
+                class="grey--text text--darken-2 font-weight-medium font-italic"
+              >
+                Aug. 2022.</v-col
+              >
+              <v-col md="10" cols="12" class="align-self-center">
+                We have released the first version (<a
+                  class="text-decoration-none"
+                  href="https://github.com/iMoonLab/DeepHypergraph/releases/tag/v0.9.1"
+                  target="_blank"
+                  >v0.9.1</a
+                >) of
+                <a
+                  class="text-decoration-none"
+                  href="http://deephypergraph.com/"
+                  target="_blank"
+                  >DeepHypergraph (DHG)</a
+                >.
+              </v-col>
+            </v-row>
+          </v-timeline-item>
+          <v-timeline-item small fill-dot>
+            <v-row dense no-gutters>
+              <v-col
+                md="2"
+                cols="12"
+                class="grey--text text--darken-2 font-weight-medium font-italic"
+              >
+                Jul. 2022.</v-col
+              >
+              <v-col md="10" cols="12" class="align-self-center">
                 One paper has been accepted by Computers & Graphics 2022.
               </v-col>
             </v-row>
@@ -30,7 +77,7 @@
                 Jun. 2022.</v-col
               >
               <v-col md="10" cols="12" class="align-self-center">
-                I have developed an online multi-modal 3D object retrieval
+                We have developed an online multi-modal 3D object retrieval
                 system. Welcome to
                 <a href="https://moon-lab.tech/vors" target="_blank">play</a>.
               </v-col>
