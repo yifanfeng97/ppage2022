@@ -13,6 +13,12 @@
         ></v-col
       >
       <v-col cols="12" class="d-flex justify-start">
+        <a href="http://deephypergraph.com/" target="_blank">
+          <img
+            class="mr-2"
+            src="https://github.com/yifanfeng97/dhg-page-source/actions/workflows/website.yml/badge.svg"
+          />
+        </a>
         <a href="https://pypi.org/project/dhg/" target="_blank">
           <img
             class="mr-2"
