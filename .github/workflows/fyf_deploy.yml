@@ -32,6 +32,6 @@ jobs:
           reponame: 'ppage2022'
           useyarn: true
           cname: 'fengyifan.site'
-          token: ${{ secrets.ACCESS_TOKEN  }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           
         
