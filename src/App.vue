@@ -17,7 +17,7 @@
       >
       <v-spacer></v-spacer>
       <template v-slot:extension>
-        <v-tabs align-with-title>
+        <v-tabs align-with-title v-model="current_area">
           <v-tab @click="$vuetify.goTo('#bio')">About Me</v-tab>
           <v-tab @click="$vuetify.goTo('#news')">News</v-tab>
           <!-- <v-tab @click="$vuetify.goTo('#note')">Notes</v-tab> -->
@@ -31,21 +31,30 @@
 
     <v-main>
       <v-container id="MyContent">
-        <MyBio class="my-6" id="bio" />
+        <MyBio class="my-6" id="bio" v-intersect="changeCurrentTab" />
         <v-divider></v-divider>
-        <MyNews class="my-6" id="news" />
+        <MyNews class="my-6" id="news" v-intersect="changeCurrentTab" />
         <v-divider></v-divider>
-        <template v-if="false">
-          <MyNote class="my-6" id="note" style="height: 500px" />
+        <!-- <template v-if="false">
+          <MyNote
+            class="my-6"
+            id="note"
+            style="height: 500px"
+            v-intersect="changeCurrentTab"
+          />
           <v-divider></v-divider>
-        </template>
-        <MyService class="my-6" id="service" />
+        </template> -->
+        <MyService class="my-6" id="service" v-intersect="changeCurrentTab" />
         <v-divider></v-divider>
-        <MyPublication class="my-6" id="publication" />
+        <MyPublication
+          class="my-6"
+          id="publication"
+          v-intersect="changeCurrentTab"
+        />
         <v-divider></v-divider>
-        <MyDataset class="my-6" id="dataset" />
+        <MyDataset class="my-6" id="dataset" v-intersect="changeCurrentTab" />
         <v-divider></v-divider>
-        <MyToolbox class="my-6" id="toolbox" />
+        <MyToolbox class="my-6" id="toolbox" v-intersect="changeCurrentTab" />
       </v-container>
       <v-responsive height="200"> </v-responsive>
     </v-main>
@@ -72,7 +81,7 @@
 import MyBio from "./components/Bio";
 import MyNews from "./components/News";
 import MyService from "./components/Service";
-import MyNote from "./components/Note";
+// import MyNote from "./components/Note";
 import MyPublication from "./components/Publication";
 import MyDataset from "./components/Dataset";
 import MyToolbox from "./components/Toolbox";
@@ -84,16 +93,34 @@ export default {
     MyBio,
     MyNews,
     MyService,
-    MyNote,
+    // MyNote,
     MyPublication,
     MyDataset,
     MyToolbox,
   },
 
   data: () => ({
-    //
+    current_area: 0,
   }),
 
-  methods: {},
+  methods: {
+    changeCurrentTab(entries) {
+      if (entries[0].isIntersecting) {
+        if (entries[0].target.id == "bio") {
+          this.current_area = 0;
+        } else if (entries[0].target.id == "news") {
+          this.current_area = 1;
+        } else if (entries[0].target.id == "service") {
+          this.current_area = 2;
+        } else if (entries[0].target.id == "publication") {
+          this.current_area = 3;
+        } else if (entries[0].target.id == "dataset") {
+          this.current_area = 4;
+        } else if (entries[0].target.id == "toolbox") {
+          this.current_area = 5;
+        }
+      }
+    },
+  },
 };
 </script>
