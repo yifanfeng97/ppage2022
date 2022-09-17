@@ -172,11 +172,11 @@ export default {
   },
   data: () => ({
     tags: [
-      {
-        idx: 1,
-        link: "http://deephypergraph.com/",
-        icon: "https://github.com/yifanfeng97/dhg-page-source/actions/workflows/website.yml/badge.svg",
-      },
+      // {
+      //   idx: 1,
+      //   link: "http://deephypergraph.com/",
+      //   icon: "https://github.com/yifanfeng97/dhg-page-source/actions/workflows/website.yml/badge.svg",
+      // },
       {
         idx: 2,
         link: "https://pypi.org/project/dhg/",
