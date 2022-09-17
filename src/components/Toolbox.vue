@@ -12,43 +12,51 @@
           >DeepHypergraph</a
         ></v-col
       >
-      <v-col cols="12" class="d-flex justify-start">
-        <a href="http://deephypergraph.com/" target="_blank">
-          <img
+      <!-- <v-col cols="12" class="d-flex justify-start"> -->
+      <v-col cols="12" class="d-inline-flex">
+        <a
+          v-for="item in tags"
+          :key="item.idx"
+          :href="item.link"
+          target="_blank"
+        >
+          <v-img class="mr-2" :src="item.icon" max-height="20px" contain />
+        </a>
+        <!-- <a href="http://deephypergraph.com/" target="_blank">
+          <v-img
             class="mr-2"
             src="https://github.com/yifanfeng97/dhg-page-source/actions/workflows/website.yml/badge.svg"
+            max-height="20px"
+            contain
           />
         </a>
         <a href="https://pypi.org/project/dhg/" target="_blank">
-          <img
+          <v-img
             class="mr-2"
             src="https://img.shields.io/pypi/v/dhg?color=purple"
           />
-        </a>
-        <a href="https://pypi.org/project/dhg/" target="_blank">
-          <img class="mr-2" src="https://img.shields.io/pypi/pyversions/dhg" />
         </a>
         <a
           href="https://deephypergraph.readthedocs.io/en/latest/?badge=latest"
           target="_blank"
         >
-          <img
+          <v-img
             class="mr-2"
             src="https://readthedocs.org/projects/deephypergraph/badge/?version=latest"
           />
         </a>
         <a href="https://pypistats.org/packages/dhg" target="_blank">
-          <img class="mr-2" src="https://img.shields.io/pypi/dm/dhg.svg" />
+          <v-img class="mr-2" src="https://img.shields.io/pypi/dm/dhg.svg" />
         </a>
         <a
           href="https://github.com/iMoonLab/DeepHypergraph/blob/main/LICENSE"
           target="_blank"
         >
-          <img
+          <v-img
             class="mr-2"
             src="https://img.shields.io/github/license/imoonlab/DeepHypergraph"
           />
-        </a>
+        </a> -->
       </v-col>
       <v-col cols="12" class="d-flex justify-center">
         <!-- <v-img
@@ -162,6 +170,39 @@ export default {
       }
     },
   },
-  data: () => ({}),
+  data: () => ({
+    tags: [
+      {
+        idx: 1,
+        link: "http://deephypergraph.com/",
+        icon: "https://github.com/yifanfeng97/dhg-page-source/actions/workflows/website.yml/badge.svg",
+      },
+      {
+        idx: 2,
+        link: "https://pypi.org/project/dhg/",
+        icon: "https://img.shields.io/pypi/v/dhg?color=purple",
+      },
+      // {
+      //   idx: 3,
+      //   link: "https://pypi.org/project/dhg/",
+      //   icon: "https://img.shields.io/pypi/pyversions/dhg",
+      // },
+      {
+        idx: 4,
+        link: "https://deephypergraph.readthedocs.io/en/latest/?badge=latest",
+        icon: "https://readthedocs.org/projects/deephypergraph/badge/?version=latest",
+      },
+      {
+        idx: 5,
+        link: "https://pypistats.org/packages/dhg",
+        icon: "https://img.shields.io/pypi/dm/dhg.svg",
+      },
+      // {
+      //   idx: 6,
+      //   link: "https://github.com/iMoonLab/DeepHypergraph/blob/main/LICENSE",
+      //   icon: "https://img.shields.io/github/license/imoonlab/DeepHypergraph",
+      // },
+    ],
+  }),
 };
 </script>

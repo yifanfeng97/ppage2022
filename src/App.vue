@@ -1,33 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-      prominent
-      shrink-on-scroll
-      src="https://picsum.photos/1920/1080?random"
-      fade-img-on-scroll
-    >
-      <template v-slot:img="{ props }">
-        <v-img v-bind="props"></v-img>
-      </template>
-      <v-app-bar-title class="text-no-wrap"
-        >丰一帆 / Yifan Feng</v-app-bar-title
-      >
-      <v-spacer></v-spacer>
-      <template v-slot:extension>
-        <v-tabs align-with-title v-model="current_area">
-          <v-tab @click="$vuetify.goTo('#bio')">About Me</v-tab>
-          <v-tab @click="$vuetify.goTo('#news')">News</v-tab>
-          <!-- <v-tab @click="$vuetify.goTo('#note')">Notes</v-tab> -->
-          <v-tab @click="$vuetify.goTo('#service')">Services</v-tab>
-          <v-tab @click="$vuetify.goTo('#publication')">Publications</v-tab>
-          <v-tab @click="$vuetify.goTo('#dataset')">Datasets</v-tab>
-          <v-tab @click="$vuetify.goTo('#toolbox')">Toolbox</v-tab>
-        </v-tabs>
-      </template>
-    </v-app-bar>
+    <MyHeader :area="cur_area" />
 
     <v-main>
       <v-container id="MyContent">
@@ -59,25 +32,13 @@
       <v-responsive height="200"> </v-responsive>
     </v-main>
 
-    <v-footer color="primary" dark padless>
-      <v-container fluid class="pa-0">
-        <v-row class="align-center" no-gutters>
-          <v-col cols="12">
-            <v-card-subtitle class="text-center pb-1 text-subtitle-1">
-              <strong>Yifan Feng</strong>
-            </v-card-subtitle>
-            <v-card-text class="text-center">
-              Copyright © 2022 -
-              {{ new Date().getFullYear() }}, All rights reserved.
-            </v-card-text>
-          </v-col>
-        </v-row>
-      </v-container>
-    </v-footer>
+    <MyFooter />
   </v-app>
 </template>
 
 <script>
+import MyHeader from "@/components/Header.vue";
+import MyFooter from "@/components/Footer.vue";
 import MyBio from "./components/Bio";
 import MyNews from "./components/News";
 import MyService from "./components/Service";
@@ -90,6 +51,8 @@ export default {
   name: "App",
 
   components: {
+    MyHeader,
+    MyFooter,
     MyBio,
     MyNews,
     MyService,
@@ -100,24 +63,24 @@ export default {
   },
 
   data: () => ({
-    current_area: 0,
+    cur_area: 0,
   }),
 
   methods: {
     changeCurrentTab(entries) {
       if (entries[0].isIntersecting) {
         if (entries[0].target.id == "bio") {
-          this.current_area = 0;
+          this.cur_area = 0;
         } else if (entries[0].target.id == "news") {
-          this.current_area = 1;
+          this.cur_area = 1;
         } else if (entries[0].target.id == "service") {
-          this.current_area = 2;
+          this.cur_area = 2;
         } else if (entries[0].target.id == "publication") {
-          this.current_area = 3;
+          this.cur_area = 3;
         } else if (entries[0].target.id == "dataset") {
-          this.current_area = 4;
+          this.cur_area = 4;
         } else if (entries[0].target.id == "toolbox") {
-          this.current_area = 5;
+          this.cur_area = 5;
         }
       }
     },
