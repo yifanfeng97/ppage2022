@@ -13,6 +13,20 @@
                 cols="12"
                 class="grey--text text--darken-2 font-weight-medium font-italic"
               >
+                Sep. 2022.</v-col
+              >
+              <v-col md="10" cols="12" class="align-self-center">
+                One paper has been accpted by IEEE T-PAMI 2022.
+              </v-col>
+            </v-row>
+          </v-timeline-item>
+          <v-timeline-item small fill-dot>
+            <v-row dense no-gutters>
+              <v-col
+                md="2"
+                cols="12"
+                class="grey--text text--darken-2 font-weight-medium font-italic"
+              >
                 Jul. 2022.</v-col
               >
               <v-col md="10" cols="12" class="align-self-center">

@@ -241,7 +241,7 @@ export default {
         index: 12,
         title:
           "Generating Hypergraph-Based High-Order Representations of Whole-Slide Histopathological Images for Survival Prediction",
-        publication: "Under Review",
+        publication: "IEEE T-PAMI 2022",
         authors:
           "Donglin Di, Changqing Zou, Yifan Feng, Hanyan Zhou, Rongrong Ji, Qionghai Dai and Yue Gao*",
         url_pdf: "",
