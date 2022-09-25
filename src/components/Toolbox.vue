@@ -189,13 +189,13 @@ export default {
       // },
       {
         idx: 4,
-        link: "https://deephypergraph.readthedocs.io/en/latest/?badge=latest",
+        link: "https://deephypergraph.readthedocs.io",
         icon: "https://readthedocs.org/projects/deephypergraph/badge/?version=latest",
       },
       {
         idx: 5,
-        link: "https://pypistats.org/packages/dhg",
-        icon: "https://img.shields.io/pypi/dm/dhg.svg",
+        link: "https://pepy.tech/badge/dhg",
+        icon: "https://pepy.tech/badge/dhg",
       },
       // {
       //   idx: 6,

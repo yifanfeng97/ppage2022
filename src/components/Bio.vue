@@ -8,7 +8,7 @@
           </v-card>
         </v-col>
         <v-col cols="12" class="text-center">
-          <p class="text-h4">丰一帆 (Yifan Feng)</p>
+          <p class="text-h4">丰一帆 / Yifan Feng</p>
           <p class="text-h5 grey--text text--darken-1">
             Ph.D. of School of Software
           </p>
@@ -42,7 +42,7 @@
           <v-col cols="12" class="text-h4"> Biography </v-col>
           <v-col cols="12" class="text-h6 font-weight-regular">
             <p>
-              I am currently a first-year Ph.D. student in the
+              I am currently a second-year Ph.D. student in the
               <a
                 class="text-decoration-none"
                 href="https://www.thss.tsinghua.edu.cn/"
