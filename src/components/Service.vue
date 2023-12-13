@@ -8,25 +8,18 @@
         Program Committee Member / Reviewer:
       </v-col>
       <v-col cols="12" class="text-body-1">
-        <p>- Pacific-Rim Conference on Multimedia (PCM 2018)</p>
-        <p>
-          - International Joint Conference on Artificial Intelligence (IJCAI
-          2020)
-        </p>
+        <p>- Computer Vision and Pattern Recognition Conference 2024 (CVPR 2024)</p>
+        <p>- CAAI International Conference on Artificial Intelligence 2022 (CICAI 2022)</p>
+        <p>- International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI 2020)</p>
+        <p>- International Joint Conference on Artificial Intelligence (IJCAI 2020)</p>
         <p>- IEEE International Conference on Image Processing (ICIP 2020)</p>
-        <p>
-          - International Conference on Medical Image Computing and Computer
-          Assisted Intervention (MICCAI 2020)
-        </p>
-        <p>
-          - CAAI International Conference on Artificial Intelligence 2022 (CICAI
-          2022)
-        </p>
+        <p>- Pacific-Rim Conference on Multimedia (PCM 2018)</p>
       </v-col>
     </v-row>
     <v-row>
       <v-col cols="12" class="text-h6"> Reviewer for Journals: </v-col>
       <v-col cols="12" class="text-body-1">
+        <p>- Medical Image Analysis</p>
         <p>- IEEE Transactions on Pattern Analysis and Machine Intelligence</p>
         <p>- IEEE Transactions on Knowledge Discovery in Data</p>
         <p>- Journal of Visual Communication and Image Representation</p>
@@ -40,6 +33,9 @@
         <p>
           - Tutorial on Hypergraph Learning: Methods, Tools and Applications in
           Medical Image Analysis (MICCAI 2019)
+        </p>
+        <p>
+          - Hypergraph Computation: Methods and Applications (PRCV 2023)
         </p>
       </v-col>
     </v-row>

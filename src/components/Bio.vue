@@ -42,7 +42,7 @@
           <v-col cols="12" class="text-h4"> Biography </v-col>
           <v-col cols="12" class="text-h6 font-weight-regular">
             <p>
-              I am currently a second-year Ph.D. student in the
+              I am currently a third-year Ph.D. student in the
               <a
                 class="text-decoration-none"
                 href="https://www.thss.tsinghua.edu.cn/"
@@ -84,9 +84,9 @@
                 target="_blank"
                 >Xiamen University</a
               >
-              in 2021. My research interests include 3D Object Recognition, 3D
-              Object Retrieval, Open-set 3D Object Retrieval, Hypergraph Neural
-              Networks, and Complex Network. I have released the
+              in 2021. My research interests include Hypergraph Neural
+              Networks, Complex Network 3D Object Recognition, 3D
+              Object Retrieval, and Open-set 3D Object Retrieval. I have released the
               <a
                 class="text-decoration-none"
                 href="http://deephypergraph.com/"

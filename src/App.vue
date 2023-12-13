@@ -17,13 +17,13 @@
           />
           <v-divider></v-divider>
         </template> -->
-        <MyService class="my-6" id="service" v-intersect="changeCurrentTab" />
-        <v-divider></v-divider>
         <MyPublication
-          class="my-6"
-          id="publication"
-          v-intersect="changeCurrentTab"
+        class="my-6"
+        id="publication"
+        v-intersect="changeCurrentTab"
         />
+        <v-divider></v-divider>
+        <MyService class="my-6" id="service" v-intersect="changeCurrentTab" />
         <v-divider></v-divider>
         <MyDataset class="my-6" id="dataset" v-intersect="changeCurrentTab" />
         <v-divider></v-divider>
@@ -73,9 +73,9 @@ export default {
           this.cur_area = 0;
         } else if (entries[0].target.id == "news") {
           this.cur_area = 1;
-        } else if (entries[0].target.id == "service") {
-          this.cur_area = 2;
         } else if (entries[0].target.id == "publication") {
+          this.cur_area = 2;
+        } else if (entries[0].target.id == "service") {
           this.cur_area = 3;
         } else if (entries[0].target.id == "dataset") {
           this.cur_area = 4;

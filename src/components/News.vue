@@ -13,6 +13,56 @@
                 cols="12"
                 class="grey--text text--darken-2 font-weight-medium font-italic"
               >
+                Nov. 2023.</v-col
+              >
+              <v-col md="10" cols="12" class="align-self-center">
+                One paper has been accpted by IEEE T-PAMI 2023.
+              </v-col>
+            </v-row>
+          </v-timeline-item>
+          <v-timeline-item small fill-dot>
+            <v-row dense no-gutters>
+              <v-col
+                md="2"
+                cols="12"
+                class="grey--text text--darken-2 font-weight-medium font-italic"
+              >
+                Oct. 2023.</v-col
+              >
+              <v-col md="10" cols="12" class="align-self-center">
+                I was invited to give a talk on
+                <a
+                  class="text-decoration-none"
+                  href="https://mp.weixin.qq.com/s/2mSlWBu7NYo88SjFD8Wn8Q"
+                  target="_blank"
+                >
+                  PRCV 2023</a
+                >
+                about Hypergraph Computation: Methods and Applications.
+              </v-col>
+            </v-row>
+          </v-timeline-item>
+          <v-timeline-item small fill-dot>
+            <v-row dense no-gutters>
+              <v-col
+                md="2"
+                cols="12"
+                class="grey--text text--darken-2 font-weight-medium font-italic"
+              >
+                Oct. 2023.</v-col
+              >
+              <v-col md="10" cols="12" class="align-self-center">
+                One paper has been accpted by IEEE TNNLS 2023.
+              </v-col>
+            </v-row>
+          </v-timeline-item>
+          <v-timeline-item small fill-dot>
+            <v-row dense no-gutters>
+              <v-col
+                md="2"
+                cols="12"
+                class="grey--text text--darken-2 font-weight-medium font-italic"
+              >
                 Sep. 2022.</v-col
               >
               <v-col md="10" cols="12" class="align-self-center">
