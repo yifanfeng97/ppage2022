@@ -267,12 +267,45 @@ export default {
         publication: "IEEE T-PAMI 2023",
         authors: "Yifan Feng, Shuyi Ji, Yu-Shen Liu and Yue Gao*.",
         url_pdf: "https://ieeexplore.ieee.org/document/10319392",
-        url_code: "https://moon-lab.tech/os3dor/",
+        url_code: "https://github.com/iMoonLab/HGM2R",
         bib_tex: "publication/2023-sdm2r/cite.bib",
         fw_path: "publication/2023-sdm2r/fw.png",
       },
       {
         index: 15,
+        title:
+          "Hypergraph Isomorphism Computation",
+        publication: "IEEE T-PAMI 2024",
+        authors: "Yifan Feng, Jiashu Han, Shihui Ying and Yue Gao*",
+        url_pdf: "https://ieeexplore.ieee.org/abstract/document/10398457",
+        url_code: "https://github.com/iMoonLab/HIC",
+        bib_tex: "publication/2024-hic/cite.bib",
+        fw_path: "publication/2024-hic/fw.jpg",
+      },
+      {
+        index: 16,
+        title:
+          "Hypergraph Dynamic System",
+        publication: "ICLR 2024",
+        authors: "Jielong Yan, Yifan Feng, Shihui Ying and Yue Gao*",
+        url_pdf: "https://openreview.net/forum?id=NLbRvr840Q",
+        url_code: "https://github.com/iMoonLab/HDS-ODE",
+        bib_tex: "publication/2024-hode/cite.bib",
+        fw_path: "publication/2024-hode/fw.jpg",
+      },
+      {
+        index: 17,
+        title:
+          "LightHGNN: Distilling Hypergraph Neural Networks into MLPs for 100x Faster Inference",
+        publication: "ICLR 2024",
+        authors: "Yifan Feng, Yihe Luo, Shihui Ying and Yue Gao*",
+        url_pdf: "https://openreview.net/forum?id=lHasEfGsXL",
+        url_code: "https://github.com/iMoonLab/LightHGNN",
+        bib_tex: "publication/2024-lighthgnn/cite.bib",
+        fw_path: "publication/2024-lighthgnn/fw.jpg",
+      },
+      {
+        index: 18,
         title:
           "A Bilateral-Branch Joint Learning Framework for Multiplex Bipartite Network Embedding",
         publication: "Under Review",
@@ -283,7 +316,7 @@ export default {
         fw_path: "publication/2024-combi/fw.png",
       },
       {
-        index: 16,
+        index: 19,
         title:
           "Cross-Modal 3D Shape Retrieval via Heterogeneous Dynamic Graph Representation",
         publication: "Under Review",
@@ -294,7 +327,7 @@ export default {
         fw_path: "publication/2024-hdgr/fw.png",
       },
       {
-        index: 17,
+        index: 20,
         title:
           "Multi-View Time-Series Hypergraph Learning for Action Recognition",
         publication: "Under Review",
@@ -305,7 +338,7 @@ export default {
         fw_path: "publication/2024-mv-tshl/fw.png",
       },
       {
-        index: 18,
+        index: 21,
         title:
           "Hypergraph Information Bottleneck Guided Hypergraph Structure Learning",
         publication: "Under Review",
@@ -316,7 +349,7 @@ export default {
         fw_path: "publication/2024-hib/fw.png",
       },
       {
-        index: 19,
+        index: 22,
         title:
           "Multi-Modal Temporal Hypergraph Neural Network for Flotation Condition Recognition",
         publication: "Under Review",
@@ -327,18 +360,7 @@ export default {
         fw_path: "publication/2024-fcr/fw.jpg",
       },
       {
-        index: 20,
-        title:
-          "Hypergraph Dynamic System",
-        publication: "Under Review",
-        authors: "Jielong Yan, Yifan Feng, Shihui Ying and Yue Gao*",
-        url_pdf: "",
-        url_code: "",
-        bib_tex: "",
-        fw_path: "publication/2024-hode/fw.jpg",
-      },
-      {
-        index: 21,
+        index: 23,
         title:
           "Hypergraph Collaborative Filtering with Attribute Inference",
         publication: "Under Review",
@@ -349,7 +371,7 @@ export default {
         fw_path: "publication/2024-hcf/fw.jpg",
       },
       {
-        index: 22,
+        index: 24,
         title:
           "Graph Classification via Hypergraph",
         publication: "Under Review",
@@ -360,7 +382,7 @@ export default {
         fw_path: "publication/2024-gch/fw.jpg",
       },
       {
-        index: 23,
+        index: 25,
         title:
           "Double Degree-Guided Discrete Diffusion for Hypergraph Generation",
         publication: "Under Review",
@@ -371,7 +393,7 @@ export default {
         fw_path: "publication/2024-ddhg/fw.jpg",
       },
       {
-        index: 24,
+        index: 26,
         title:
           "Bayesian Hypergraph Modeling",
         publication: "Under Review",
@@ -382,7 +404,7 @@ export default {
         fw_path: "publication/2024-bhm/fw.jpg",
       },
       {
-        index: 25,
+        index: 27,
         title:
           "Kernelized Hypergraph Neural Networks",
         publication: "Under Review",
@@ -391,28 +413,6 @@ export default {
         url_code: "",
         bib_tex: "",
         fw_path: "publication/2024-khgnn/fw.jpg",
-      },
-      {
-        index: 26,
-        title:
-          "LightHGNN: Distilling Hypergraph Neural Networks into MLPs for 100x Faster Inference",
-        publication: "Under Review",
-        authors: "Yifan Feng, Yihe Luo, Shihui Ying and Yue Gao*",
-        url_pdf: "",
-        url_code: "",
-        bib_tex: "",
-        fw_path: "publication/2024-lighthgnn/fw.jpg",
-      },
-      {
-        index: 27,
-        title:
-          "Hypergraph Isomorphism Computation",
-        publication: "Under Review",
-        authors: "Yifan Feng, Jiashu Han, Shihui Ying and Yue Gao*",
-        url_pdf: "https://arxiv.org/pdf/2307.14394.pdf",
-        url_code: "",
-        bib_tex: "publication/2024-hic/cite.bib",
-        fw_path: "publication/2024-hic/fw.jpg",
       },
     ],
     cur_bibtex: "",

@@ -19,8 +19,9 @@
     <v-row>
       <v-col cols="12" class="text-h6"> Reviewer for Journals: </v-col>
       <v-col cols="12" class="text-body-1">
-        <p>- Medical Image Analysis</p>
         <p>- IEEE Transactions on Pattern Analysis and Machine Intelligence</p>
+        <p>- International Journal of Computer Vision</p>
+        <p>- Medical Image Analysis</p>
         <p>- IEEE Transactions on Knowledge Discovery in Data</p>
         <p>- Journal of Visual Communication and Image Representation</p>
         <p>- IEEE Signal Processing Letters</p>
