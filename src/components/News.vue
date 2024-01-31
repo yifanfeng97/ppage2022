@@ -13,6 +13,31 @@
                 cols="12"
                 class="grey--text text--darken-2 font-weight-medium font-italic"
               >
+                Feb. 2024.</v-col
+              >
+              <v-col md="10" cols="12" class="align-self-center">
+                <a
+                  class="text-decoration-none"
+                  href="https://github.com/iMoonLab/DeepHypergraph/releases/tag/v0.9.4"
+                  target="_blank"
+                  >v0.9.4</a
+                > of
+                <a
+                  class="text-decoration-none"
+                  href="http://deephypergraph.com/"
+                  target="_blank"
+                  >DHG</a
+                > is released. We add 6 hypergraph datasets and fix some known bugs.
+              </v-col>
+            </v-row>
+          </v-timeline-item>
+          <v-timeline-item small fill-dot>
+            <v-row dense no-gutters>
+              <v-col
+                md="2"
+                cols="12"
+                class="grey--text text--darken-2 font-weight-medium font-italic"
+              >
                 Jan. 2024.</v-col
               >
               <v-col md="10" cols="12" class="align-self-center">
@@ -91,10 +116,35 @@
                 cols="12"
                 class="grey--text text--darken-2 font-weight-medium font-italic"
               >
+                Dec. 2022.</v-col
+              >
+              <v-col md="10" cols="12" class="align-self-center">
+                <a
+                  class="text-decoration-none"
+                  href="https://github.com/iMoonLab/DeepHypergraph/releases/tag/v0.9.3"
+                  target="_blank"
+                  >v0.9.3</a
+                > of
+                <a
+                  class="text-decoration-none"
+                  href="http://deephypergraph.com/"
+                  target="_blank"
+                  >DHG</a
+                > is released. We add a hypergraph dataset, fix some known bugs, and add some hypergraph operation.
+              </v-col>
+            </v-row>
+          </v-timeline-item>
+          <v-timeline-item small fill-dot>
+            <v-row dense no-gutters>
+              <v-col
+                md="2"
+                cols="12"
+                class="grey--text text--darken-2 font-weight-medium font-italic"
+              >
                 Sep. 2022.</v-col
               >
               <v-col md="10" cols="12" class="align-self-center">
-                We have released <a
+                <a
                   class="text-decoration-none"
                   href="https://github.com/iMoonLab/DeepHypergraph/releases/tag/v0.9.2"
                   target="_blank"
@@ -105,7 +155,7 @@
                   href="http://deephypergraph.com/"
                   target="_blank"
                   >DHG</a
-                >. 21 datasets, 6 SOTA methods, and structure and feature visualizations are added.
+                > is released. We add 21 datasets, 6 SOTA methods, and structure and feature visualizations.
               </v-col>
             </v-row>
           </v-timeline-item>
